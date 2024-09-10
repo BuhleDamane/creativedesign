@@ -1,0 +1,57 @@
+/* Home Section Styling */
+
+.home-section {
+    height: 100vh;
+    background: url('/src/Components/Assets/DESIGN\ MASTER\ STUDIO\ LOGO.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .home-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+  
+  .home-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+  }
+  
+  .cta-btn {
+    padding: 10px 30px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .home-content h1 {
+      font-size: 36px;
+    }
+  
+    .home-content p {
+      font-size: 16px;
+    }
+  }
+  
