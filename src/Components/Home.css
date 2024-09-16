@@ -1,57 +1,78 @@
-/* Home Section Styling */
+/* Hero Section */
+.hero-banner {
+  background-image: url('./Assets/DESIGN\ MASTER\ STUDIO\ LOGO.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
 
-.home-section {
-    height: 100vh;
-    background: url('/src/Components/Assets/DESIGN\ MASTER\ STUDIO\ LOGO.png') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-  }
-  
-  .home-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .home-content h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-  }
-  
-  .home-content p {
-    font-size: 20px;
-    margin-bottom: 40px;
-    line-height: 1.6;
-  }
-  
-  .cta-btn {
-    padding: 10px 30px;
-    background-color: #f39c12;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .cta-btn:hover {
-    background-color: #e67e22;
-  }
-  
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
-    .home-content h1 {
-      font-size: 36px;
-    }
-  
-    .home-content p {
-      font-size: 16px;
-    }
-  }
-  
+.hero-content h1 {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  padding: 12px 25px;
+  background-color: #f39c12;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-btn:hover {
+  background-color: #e67e22;
+}
+
+/* About Section */
+.about-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Services Section - Highlights */
+.services-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services-highlights {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.highlight {
+  width: 150px;
+  text-align: center;
+}
+
+.highlight img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.highlight p {
+  font-size: 16px;
+  font-weight: bold;
+}

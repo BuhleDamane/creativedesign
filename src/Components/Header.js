@@ -1,14 +1,15 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+export default function Header (){
   return (
+    
     <header className="header">
       <div className="logo">
         <h1>Master Design Studio</h1>
       </div>
       <nav className="nav">
-        <ul>
+        <ul className="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#packages">Packages</a></li>
@@ -20,5 +21,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
