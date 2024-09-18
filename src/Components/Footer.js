@@ -1,40 +1,54 @@
 import React from 'react';
 import './Footer.css';
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
-        <div className="footer-logo">
-          <h3>Master Design Studio</h3>
-          <p>Your one-stop solution for creative designs and business services.</p>
-        </div>
+    <footer className="footer-container">
+     
+      <section className="footer-section footer-links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </section>
 
-        <div className="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#packages">Packages</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
-        </div>
+      <section className="footer-section footer-info">
+        <h2>Business Info</h2>
+        <p>123 Creative Street, Design City, DC 12345</p>
+        <p>Email: info@masterdesignstudio.com</p>
+        <p>Phone: +1 (234) 567-8901</p>
+      </section>
 
-        <div className="footer-contact">
-          <h4>Contact Information</h4>
-          <p>Email: info@masterdesignstudio.com</p>
-          <p>Phone: +27 123 456 789</p>
-          <div className="social-icons">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <section className="footer-section footer-policies">
+        <h2>Policies</h2>
+        <ul>
+          <li><a href="/refund-policy">Refund Policy</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/terms-of-service">Terms of Service</a></li>
+        </ul>
+      </section>
+
+      <section className="footer-section footer-social">
+        <h2>Follow Us</h2>
+        <div className="social-links">
+        <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaFacebookSquare /></a>
+          <a href="https://www.twitter.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaSquareXTwitter /></a>
+          <a href="https://www.linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaInstagramSquare /></a>
+          <a href="https://www.linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           </div>
-        </div>
-      </div>
+      </section>
 
-      <div className="footer-bottom">
+      <section className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Master Design Studio. All rights reserved.</p>
-      </div>
+      </section>
     </footer>
   );
 };

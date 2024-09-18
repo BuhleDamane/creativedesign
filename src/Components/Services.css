@@ -1,58 +1,105 @@
-/* Services Section Styling */
-
 .services-section {
-    padding: 60px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .services-section h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #333;
-  }
-  
-  .services-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .service-card {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    transition: transform 0.3s ease;
-  }
-  
-  .service-card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .service-card h3 {
-    font-size: 24px;
-    color: #f39c12;
-    margin-bottom: 15px;
-  }
-  
-  .service-card p {
-    font-size: 16px;
-    color: #555;
-  }
-  
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
-    .services-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .service-card {
-      width: 100%;
-      max-width: 400px;
-    }
-  }
-  
+  padding: 60px 20px;
+  background-color: #000; 
+  color: #fff; 
+  text-align: center;
+}
+hr{
+  width: 90%;
+  height: 5px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #f39c12;
+  margin-bottom: 50px;
+}
+.services-intro {
+  margin-bottom: 40px;
+}
+
+.services-intro h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #f39c12; 
+}
+
+.services-intro p {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #ccc; 
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-item {
+  background-color: #222; 
+  border: 1px solid #444; 
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.service-item h3 {
+  font-size: 24px;
+  color: #f39c12; 
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.services-showcase {
+  margin-top: 40px;
+}
+
+.services-showcase h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #f39c12; 
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #fff; 
+}
+
+.services-cta {
+  margin-top: 40px;
+}
+
+.services-cta p {
+  font-size: 18px;
+  color: #fff; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.cta-link {
+  color: #f39c12; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}

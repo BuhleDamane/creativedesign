@@ -4,32 +4,46 @@ import './Services.css';
 const Services = () => {
   return (
     <section id="services" className="services-section">
-      <h2>Our Services</h2>
-      <div className="services-container">
-        <div className="service-card">
+      <hr />
+      <div className="services-intro">
+        <h2>Our Creative Design Services</h2>
+        <p>Transforming ideas into visual masterpieces. At Master Design Studio, we offer a range of creative design services to bring your vision to life. Explore how we can enhance your brand with our bespoke solutions.</p>
+      </div>
+      
+      <div className="services-list">
+        <div className="service-item">
+          <h3>Logo Design</h3>
+          <p>Create a unique and memorable logo that embodies your brand's identity.</p>
+        </div>
+        <div className="service-item">
+          <h3>Brand Identity</h3>
+          <p>Develop a cohesive brand identity with custom color schemes, typography, and more.</p>
+        </div>
+        <div className="service-item">
           <h3>Website Design</h3>
-          <p>We build stunning websites tailored to your business needs. From basic to premium packages, we’ve got you covered.</p>
+          <p>Design elegant and functional websites that cater to your business needs.</p>
         </div>
-        <div className="service-card">
-          <h3>Logos & Branding</h3>
-          <p>Make your business stand out with professional logo and branding services that leave a lasting impression.</p>
+        <div className="service-item">
+          <h3>Marketing Materials</h3>
+          <p>Design impactful promotional materials including posters, flyers, and brochures.</p>
         </div>
-        <div className="service-card">
-          <h3>Business Plans</h3>
-          <p>We help you create comprehensive business plans that get you noticed and funded.</p>
+        <div className="service-item">
+          <h3>Business Registration & Tax Compliance</h3>
+          <p>Assistance with SARS/tax-related issues and business registration for a smooth operation.</p>
         </div>
-        <div className="service-card">
-          <h3>SARS/TAX Consultations</h3>
-          <p>Let us assist with SARS/TAX and bookkeeping to ensure your business is compliant.</p>
+      </div>
+
+      <div className="services-showcase">
+        <h3>Our Work</h3>
+        <div className="gallery">
+          <img src="path-to-your-image1.jpg" alt="Design Example 1" />
+          <img src="path-to-your-image2.jpg" alt="Design Example 2" />
+          <img src="path-to-your-image3.jpg" alt="Design Example 3" />
         </div>
-        <div className="service-card">
-          <h3>Business Consultations</h3>
-          <p>We offer tailored business consultations to guide your business to success.</p>
-        </div>
-        <div className="service-card">
-          <h3>Brochures & Flyers</h3>
-          <p>Get professionally designed brochures and flyers to promote your business.</p>
-        </div>
+      </div>
+
+      <div className="services-cta">
+        <p>Ready to elevate your brand with stunning design? <a href="#contact" className="cta-link">Contact us today</a> for a personalized quote!</p>
       </div>
     </section>
   );
