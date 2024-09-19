@@ -64,6 +64,7 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 10px;
+    background-color: #f39c12;
   }
 
   .navbar-brand {
