@@ -39,12 +39,12 @@
   .nav-link{
     color: aliceblue;
   }
-  .navbar-brand {
+  .navbar-brand a{
     font-family: 'Playfair Display', serif;
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #000;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 }
 @media (max-width: 768px) {
