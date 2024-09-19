@@ -51,6 +51,14 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   
   }
+  .navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+  }
   
 }
 @media (max-width: 768px) {
@@ -59,7 +67,8 @@
   }
 
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
   }
 
   .navbar-nav .nav-link {
