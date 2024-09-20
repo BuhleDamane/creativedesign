@@ -4,7 +4,7 @@ import testimonialsData from './testimonialsData';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id='about'>
       <hr />
       <section className="about-story">
         <h1>Welcome to Master Design Studio</h1>

@@ -3,7 +3,7 @@ import './Packages.css';
 
 const Packages = () => {
   return (
-    <div className="packages-container">
+    <div className="packages-container" id='packages'>
       <hr />
       <h1>Our Packages</h1>
       <div className="packages">

@@ -8,6 +8,7 @@ import Packages from './Components/Packages';
 import Portfolio from './Components/Portfolio';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
+import Policies from "./Components/Policies";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Portfolio />
       <ContactUs />
       <Footer />
+      <Policies />
     </div>
   );
 }

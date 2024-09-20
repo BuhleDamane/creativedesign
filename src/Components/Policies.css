@@ -35,4 +35,21 @@
   .policy-section a:hover {
     text-decoration: underline;
   }
+  .policy-section {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .policy-section h1 {
+    margin-top: 0;
+  }
+  
+  .policy-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+    
   

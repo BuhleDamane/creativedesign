@@ -13,6 +13,19 @@
   letter-spacing: 2px;
   font-weight: 700 !important;
 }
+.navbar-collapse {
+  display: none;
+}
+.navbar-collapse.show {
+  display: flex; /* Adjust this as necessary */
+}
+
+.navbar-collapse {
+  display: none;
+}
+.navbar-collapse.show {
+  display: flex; /* Adjust this as necessary */
+}
 
 .navbar-nav .nav-link {
   font-family: "Roboto Serif", serif;
@@ -76,6 +89,7 @@
   }
 
   .navbar-nav .nav-link {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    background-color: transparent !important;
   }
 }

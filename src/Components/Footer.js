@@ -28,13 +28,14 @@ const Footer = () => {
       </section>
 
       <section className="footer-section footer-policies">
-        <h2>Policies</h2>
-        <ul>
-          <li><a href="/refund-policy">Refund Policy</a></li>
-          <li><a href="/privacy-policy">Privacy Policy</a></li>
-          <li><a href="/terms-of-service">Terms of Service</a></li>
-        </ul>
-      </section>
+  <h2>Policies</h2>
+  <ul>
+    <li><a href="#refund-policy">Refund Policy</a></li>
+    <li><a href="#privacy-policy">Privacy Policy</a></li>
+    <li><a href="#terms-of-service">Terms of Service</a></li>
+  </ul>
+</section>
+
 
       <section className="footer-section footer-social">
         <h2>Follow Us</h2>
